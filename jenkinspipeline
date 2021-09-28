@@ -1,0 +1,15 @@
+pipeline {
+  agent {
+    label 'docker linux'
+   }
+   
+   stages {
+      stage{'Hello') {
+          steps {
+                  sh 'java -version'
+                  echo "Get Working Directory"
+                  sh 'pod'
+      }
+    }
+  }
+}
