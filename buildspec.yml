@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Entered the pre_build phase...
       - which python
+      - python3 --version
   build:
     commands:
       - echo Entered the build phase...
