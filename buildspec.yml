@@ -8,6 +8,7 @@ phases:
   pre_build:
     commands:
       - echo Entered the pre_build phase...
+      - cat ./.python-version
   build:
     commands:
       - echo Entered the build phase...
