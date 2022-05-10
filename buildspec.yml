@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - python3 hello.py
+      - python3 helloworld.py
     finally:
       - echo This always runs even if the python command fails
   post_build:
